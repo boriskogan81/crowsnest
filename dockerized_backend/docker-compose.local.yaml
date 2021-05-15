@@ -1,0 +1,8 @@
+version: '3'
+  environment:
+services:
+  init:
+    build: ./app
+    network_mode: host
+    command: ['init.py', '--url', 'redis://localhost:6379']
+ 

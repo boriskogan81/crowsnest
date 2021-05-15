@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "video-analysis"
+		}
+	],
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Capture",
+				"type": "python",
+				"request": "launch",
+				"program": "C:\\Users\\bkogan\\WebstormProjects\\video-analysis\\capture.py",
+				"console": "integratedTerminal",
+				"args": ["--url", "localhost:6379", "data/walking.mp4"]
+			},
+			{
+				"name": "server",
+				"type": "python",
+				"request": "launch",
+				"program": "C:\\Users\\bkogan\\WebstormProjects\\video-analysis\\server.py",
+				"console": "integratedTerminal",
+				"args": ["--url", "localhost:6379"]
+			}
+		]
+	}
+}

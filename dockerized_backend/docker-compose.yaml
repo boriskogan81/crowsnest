@@ -1,0 +1,12 @@
+version: '3'
+services:
+  redisedge:
+    build: ./redisedge
+    ports:
+      - 6379:6379
+  init:
+    build: ./app
+    depends_on:
+      - redisedge
+    command: ['init.py', '--url', 'redis://redisedge:6379']
+
