@@ -2,10 +2,7 @@
 
 ## Project setup
 In the main folder, run
-```# crowsnest
 
-## Project setup
-In the main folder, run
 ```
 npm install
 ```
