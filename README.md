@@ -99,7 +99,7 @@ The server receives the detection boxes and video frames from Redis, superimpose
 ```
 
 All of this allows users to change video sources and models on the fly to fit mission requirements
-![Diagram](./Diagram.png?raw=true "Diagram")
+![Diagram](https://github.com/boriskogan81/crowsnest/blob/main/Diagram.PNG?raw=true "Diagram")
 
 ## Background
 I used this project to start filling an ongoing mission requirement, get my feet wet with Python, the Redis stack, AI and computer vision, and compete in the 2021 Redis Hackathon. I used Ajeet Raina's demo (https://github.com/collabnix/redisedge-grafana/ )for a starting point, at his suggestion. 
